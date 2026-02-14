@@ -1,0 +1,8 @@
+.clickableCard {
+  cursor: pointer;
+  display: block;
+}
+
+.clickableCard:hover {
+  opacity: 0.95;
+}

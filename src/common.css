@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Arimo";
+    src: url(assets/fonts/Arimo/Arimo-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Arimo";
+}
+
+#root {
+    min-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBody {
+    padding: 0 50px;
+}

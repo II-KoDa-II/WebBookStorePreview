@@ -1,0 +1,136 @@
+.card {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background: #FFF7E1;
+  border: none;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.imageWrap {
+  width: 400px;
+  height: 600px;
+  flex: 0 0 400px;
+}
+
+.image {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.titleLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #FFE396;
+  padding: 16px 24px;
+  border-bottom: 1px solid #FFE396;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.author {
+  font-size: 24px;
+  margin-top: 96px;
+  padding: 0 24px;
+  margin-bottom: 8px;
+}
+
+.pages {
+  font-size: 16px;
+  color: #666;
+  padding: 0 24px;
+  margin-bottom: 16px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 0 24px;
+}
+
+.tag {
+  display: inline-block;
+  background: #FFE396;
+  color: #333;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  padding: 0 24px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 0 24px;
+}
+
+.regular {
+  font-size: 24px;
+  color: #111;
+  font-weight: 600;
+}
+
+.regularCross {
+  font-size: 24px;
+  color: #999;
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.discountPrice {
+  font-size: 28px;
+  color: #c62828;
+  font-weight: 700;
+}
+
+.bottomArea {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 24px 24px 24px;
+}
+
+.addButton {
+  background: #FFBB00;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.addButton:hover {
+  background: #e6a500;
+}

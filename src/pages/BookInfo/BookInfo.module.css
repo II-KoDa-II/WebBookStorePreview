@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 0;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.descriptionSection {
+  margin-top: 40px;
+  padding: 20px;
+  background: #FFF7E1;
+  border-radius: 6px;
+}
+
+.descriptionSection h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #111;
+}
+
+.fullDescription {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}

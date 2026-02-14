@@ -1,0 +1,187 @@
+.container {
+  position: sticky;
+  top: 100px;
+  width: 400px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  background: #fff;
+  border-right: 1px solid #eee;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.segment {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.segment h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+}
+
+.tagSearch {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.tagSearchInput {
+  width: 100%;
+  padding: 8px 32px 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.clearButton {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 16px;
+  padding: 0;
+}
+
+.clearButton:hover {
+  color: #333;
+}
+
+.tagsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tagLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tagLabel input {
+  cursor: pointer;
+}
+
+.toggleButton {
+  width: 100%;
+  padding: 8px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.toggleButton:hover {
+  background: #efefef;
+}
+
+.filterGroup {
+  margin-bottom: 16px;
+}
+
+.filterGroup label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.filterGroup input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.rangeInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rangeInput {
+  width: 100%;
+  cursor: pointer;
+}
+
+.numberInputs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.numberInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.separator {
+  color: #999;
+  font-weight: 600;
+}
+
+.sortOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sortOptions label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sortOptions input {
+  cursor: pointer;
+}
+
+.applyButton {
+  width: 100%;
+  padding: 12px;
+  background: #FFBB00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.applyButton:hover {
+  background: #e6a500;
+}
+
+.resetButton {
+  width: 100%;
+  padding: 12px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #666;
+}
+
+.resetButton:hover {
+  background: #efefef;
+}
